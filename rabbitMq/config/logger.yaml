@@ -1,0 +1,13 @@
+Name: 'gin'   #日志系统名称
+Development: false  #开发环境
+Level: 'info'  #级别
+Prefix: 'gin'
+Format: 'json'
+Stacktrace: true  #是否打印堆栈
+LinkName: 'latest_log'  #软链接名称
+LogRollingPolicy: 'daily'  #日志分割策略
+Director: 'log'
+LoggerInfoFile: 'info'  #info地址
+LoggerWarnFile: 'warn'  #warn地址
+LoggerErrorFile: 'error' #error地址
+MaxAge: 30 #日志保留天数
